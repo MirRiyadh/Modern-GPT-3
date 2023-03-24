@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import { Article, Brand, Feature, Navbar } from "./components";
 import {
   Footer,
