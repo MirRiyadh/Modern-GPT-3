@@ -95,6 +95,11 @@ a {
   }
 }
 
+@media screen and(max-width:1050px) {
+  .section_padding {
+    padding: 3rem 1rem;
+  }
+}
 @media screen and(max-width:700px) {
   .section_padding {
     padding: 4rem;
