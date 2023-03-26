@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 6rem;
+  padding: 2rem 10rem;
 }
 
 .gpt3_navbar_links {
@@ -97,6 +97,12 @@
 
 .gpt3_navbar_menu_container_links_sign {
   display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .gpt3_navbar {
+    padding: 2rem 6rem;
+  }
 }
 
 @media screen and (max-width: 1050px) {
