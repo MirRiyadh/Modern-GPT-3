@@ -18,18 +18,26 @@ const GPT3 = () => {
         <p>Explore The Library</p>
       </div>
       <div className="gpt3_whatgpt3_container">
-        <Feature
-          title="ChatBots"
-          text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. "
-        />
-        <Feature
-          title="Knowledgebase"
-          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b "
-        />
-        <Feature
-          title="Education"
-          text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments "
-        />
+        <div>
+          <Feature
+            title="ChatBots"
+            text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. "
+          />
+        </div>
+        <div>
+          {" "}
+          <Feature
+            title="Knowledgebase"
+            text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b "
+          />
+        </div>
+
+        <div>
+          <Feature
+            title="Education"
+            text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments "
+          />
+        </div>
       </div>
     </div>
   );

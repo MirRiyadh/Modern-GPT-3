@@ -55,6 +55,9 @@
 .gpt3__whatgpt3-feature .gpt3_features_container_feature {
   margin: 0;
 }
+.gpt3_whatgpt3_container {
+  display: flex;
+}
 
 .gpt3__whatgpt3-feature .gpt3_features_container_feature-text {
   max-width: 700px;
