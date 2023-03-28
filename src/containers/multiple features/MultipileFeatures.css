@@ -1,0 +1,54 @@
+.gpt3_multipile_features {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+}
+
+.gpt3_multipile_features_heading {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  text-align: left;
+  margin-right: 5rem;
+}
+
+.gpt3_multipile_features_heading h1 {
+  font-size: 58px;
+  line-height: 60px;
+  font-weight: 800;
+  font-family: var(--font-family);
+  padding-top: 15%;
+}
+
+.gpt3_multipile_features_heading p {
+  color: var(--color-subtext);
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  font-family: var(--font-family);
+
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .gpt3_multipile_features {
+    width: 100%;
+    /* flex-direction: column; */
+  }
+  .gpt3_multipile_features_heading h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3_multipile_features {
+    flex-direction: column;
+  }
+}
