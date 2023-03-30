@@ -19,7 +19,7 @@ const Menu = () => (
       <a href="#multipile_features">Features</a>
     </p>
     <p>
-      <a href="#Blog">Blog</a>
+      <a href="#blog">Blog</a>
     </p>
     <p>
       <a href="#about">About</a>

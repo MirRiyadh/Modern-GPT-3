@@ -59,7 +59,17 @@
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1050px) {
+  .gpt3_possibility {
+    margin-top: 0.5rem;
+  }
+  .gpt3_possibility_content h1 {
+    font-size: 50px;
+    line-height: 64px;
+  }
+}
+
+@media screen and (max-width: 920px) {
   .gpt3_possibility {
     flex-direction: column;
     margin-top: 3rem;
