@@ -9,3 +9,72 @@
   border-radius: 1rem;
   background: var(--gradient-bar);
 }
+
+.gpt3_newsletter_content p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 30px;
+  font-weight: 500;
+}
+.gpt3_newsletter_content h3 {
+  font-family: var(--font-family);
+  font-size: 24px;
+  line-height: 45px;
+  font-weight: 800;
+}
+
+.gpt3_newsletter_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.gpt3_newsletter_button button {
+  background: #000;
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+  min-width: 150px;
+}
+
+@media screen and (max-width: 650px) {
+  .gpt3_newsletter {
+    flex-direction: column;
+  }
+  .gpt3_newsletter_content h3 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 800;
+  }
+
+  .gpt3_newsletter_button {
+    margin: 1.5rem 0 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3_newsletter {
+    flex-direction: column;
+    margin: 4rem 1rem;
+  }
+
+  .gpt3_newsletter_content h3 {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .gpt3_newsletter_button button {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
