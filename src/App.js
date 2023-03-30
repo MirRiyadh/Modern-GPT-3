@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { Article, Brand, Feature, Navbar } from "./components";
+import { Article, Brand, Feature, Navbar, Newsletter } from "./components";
 import {
   Footer,
   Blog,
@@ -21,7 +21,7 @@ function App() {
       <GPT3 />
       <MultipileFeatures />
       <Possibility />
-      {/* <CTA/> */}
+      <Newsletter />
       <Blog />
       <Footer />
     </div>
