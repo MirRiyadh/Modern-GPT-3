@@ -5,3 +5,16 @@
   align-items: center;
   background: var(--color-footer);
 }
+
+.gpt3_footer_heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.gpt3_footer_heading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 75px;
+}
