@@ -19,6 +19,23 @@
   line-height: 75px;
 }
 
-.gpt3_footer_btn{
-  font-size: 24px;
+.gpt3_footer_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 1rem;
+  border: 1px solid #fff;
+  text-align: center;
+
+  margin-bottom: 10rem;
+  cursor: pointer;
+}
+
+.gpt3_footer_btn p {
+  font-size: 18px;
+  font-family: var(--font-family);
+  line-height: 21px;
+  color: #fff;
+  word-spacing: 2px;
 }
