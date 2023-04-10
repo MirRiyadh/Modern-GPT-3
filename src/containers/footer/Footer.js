@@ -39,7 +39,7 @@ const Footer = () => {
           <h4>Get in touch</h4>
           <p>Contact us</p>
           <p>085-132567</p>
-          <p>info@payme.net</p>
+          <p>info@gpt3.net</p>
         </div>
       </div>
 
